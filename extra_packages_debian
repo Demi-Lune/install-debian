@@ -75,7 +75,7 @@ gthumb
 # python3-skimage
 
 # # markdown
-# markdown python-markdown python3-markdown elpa-markdown-mode
+markdown python-markdown python3-markdown elpa-markdown-mode
 
 
 #### Utilitaires
