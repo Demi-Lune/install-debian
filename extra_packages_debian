@@ -83,6 +83,7 @@ bzip2
 #  rar  --> manque DEB
 unzip p7zip-full 
 tkcvs
+whois
 
 #### Reseau
 gftp-gtk
