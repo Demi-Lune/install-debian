@@ -84,6 +84,7 @@ bzip2
 unzip p7zip-full 
 tkcvs
 whois
+apache2-utils
 
 #### Reseau
 gftp-gtk
