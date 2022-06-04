@@ -57,8 +57,8 @@ id $givenName
 sudo -i OU su  # suivant qu'on a mis $givenName les droits de sudo
 deluser --remove-home bob
 
-sed -e "s/#.*$//" extra_packages_debian |xargs echo 
-apt-get install -y #[copier-coller tous les packages de la ligne prédécente]
+    sed -e "s/#.*$//" extra_packages_debian |xargs echo 
+    apt-get install -y #[copier-coller tous les packages de la ligne prédécente]
 
 #### Tests performances : 
 cd /root
