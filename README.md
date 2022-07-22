@@ -79,9 +79,14 @@ Mmmmmh, ca marche pas non plus sur le precision 5520 ; pour annuler le massacre 
 apt-get install --reinstall xserver-xorg 
 apt-get install --reinstall xserver-xorg-nouveau
 
-Imprimante et scanner HP : 
-apt install hplip
 
+# Imprimante et scanner HP : 
 
+    apt install hplip
+    bash Downloads/hplip-3.22.4.run
+
+En cas de pb, pour la reconfigurer : 
+
+    hp-setup
 
 
