@@ -90,3 +90,6 @@ En cas de pb, pour la reconfigurer :
     hp-setup
 
 
+Pour le scanner, telecharger le plugin non-free associé
+ https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/
+ 
