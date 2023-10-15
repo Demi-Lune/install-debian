@@ -93,3 +93,14 @@ En cas de pb, pour la reconfigurer :
 Pour le scanner (HP Envy 6032e), telecharger le plugin non-free associé
  https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/
 (cf. https://answers.launchpad.net/hplip/+question/693488) 
+
+# grub et windows
+
+Depuis mi-2023, grub ne détecte plus automatiquement les partitions windows. Il faut décommenter la ligne 
+
+    GRUB_DISABLE_OS_PROBER=false
+
+dans le fichier `/etc/default/grub`, puis relancer 
+
+    sudo update-grub
+    
