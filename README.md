@@ -3,7 +3,7 @@
 Creer la clé USB d'install a partir de l'iso 
 (#  usb-creator-gtk  ## marche pas sur une image debian ?)
 
-    dd bs=4M if=~/Downloads/debian-live-9.4.0-amd64-gnome.iso of=/dev/sdb
+    dd bs=4M if=~/Downloads/debian-live-9.4.0-amd64-gnome.iso of=/dev/sdb status=progress
 
 BIOS : desactiver le secure boot UEFI ; en legacy, on voit passer le "boot on usb"
 Si le BIOS ne veut pas booter sur la clef, vérifier qu'un boot USB est bien autorisé (désactivé parfois)
